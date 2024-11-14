@@ -1,3 +1,4 @@
+'use client';
 import Headermain from '@/Components/organisms/Headermain'
 import Footer from '@/Components/organisms/Footer'
 import React from 'react'

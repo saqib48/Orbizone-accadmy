@@ -1,3 +1,4 @@
+'use client';
 import Geddetail from '@/Components/organisms/Geddetail'
 import Gedtext from '@/Components/organisms/Gedtext'
 import Headermain from '@/Components/organisms/Headermain'

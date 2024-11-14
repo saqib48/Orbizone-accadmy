@@ -1,3 +1,4 @@
+'use client';
 import BlogSearch from '@/Components/organisms/BlogSearch'
 import Footer from '@/Components/organisms/Footer'
 import Headermain from '@/Components/organisms/Headermain'

@@ -1,6 +1,7 @@
-import AboutSection2 from '@/Components/organisms/AboutSectio2'
-import AboutSection1 from '@/Components/organisms/AboutSection1'
-import AboutText from '@/Components/organisms/AboutText'
+'use client';
+import AboutSection2 from '@/components/organisms/AboutSectio2'
+import AboutSection1 from '@/components/organisms/AboutSection1'
+import AboutText from '@/components/organisms/AboutText'
 import BannerAbout from '@/components/organisms/BannerAbout'
 import Footer from '@/components/organisms/Footer'
 import Headermain from '@/Components/organisms/Headermain'
