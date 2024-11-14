@@ -9,9 +9,9 @@ function Contectleft() {
   return (
     <div>
       <div className="w-full flex flex-col justify-center h-[70vh]">
-        <div className="text-center text-[white] sm:text-left mb-14 before:block before:w-24  before:h-3 before:mb-10 before:rounded-[10px]  sm:before:mx-0 before:bg-blue-400">
+        <div className="text-center text-[white] sm:text-left mb-14 before:block before:w-24  before:h-3 before:mb-10 before:rounded-[10px]  sm:before:mx-0 before:bg-[#02C6FE]">
           <div className="flex gap-4 items-center">
-            <div className="h-6 w-6 bg-blue-400 rounded-[999px] ">
+            <div className="h-6 w-6 bg-[#02C6FE] rounded-[999px] ">
             </div>
             <h3 className="text-3xl font-semibold ">Follow Us on</h3>
           </div>

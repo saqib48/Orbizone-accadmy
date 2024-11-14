@@ -20,9 +20,9 @@ const CourseCard = ({ image, title, rating, reviews, description, author, durati
         </div>
         <p className='description'>{description}</p>
         <div className='details'>
-          <span className='author'><div className='text-[#4ADE80]'>{icon1}</div>{author}</span>
-          <span className='duration'><div className='text-[#4ADE80]'>{icon2}</div>{duration} Hrs</span>
-          <span className='students'> <div className='text-[#4ADE80]'>{icon3}</div> {students} Students</span>
+          <span className='author'><div className='text-[#02C6FE]'>{icon1}</div>{author}</span>
+          <span className='duration'><div className='text-[#02C6FE]'>{icon2}</div>{duration} Hrs</span>
+          <span className='students'> <div className='text-[#02C6FE]'>{icon3}</div> {students} Students</span>
         </div>
       </div>
     </div >

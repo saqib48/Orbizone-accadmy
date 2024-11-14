@@ -58,7 +58,7 @@ function Geddetail2() {
             width={900}
           />
         </div>
-        <Heading level={5}>Millions of people have passed the GED exam and gone on to college and better jobs. You can be one of them and EDIFY will help you every step of the way!</Heading>
+        <Heading level={5}>Millions of people have passed the GED exam and gone on to college and better jobs. You can be one of them and Orbizone will help you every step of the way!</Heading>
       </div>
       <div className="flex gap-2 mb-8">
         <div className="mt-2">
@@ -95,7 +95,7 @@ function Geddetail2() {
           />
         </div>
         <div>
-          <Heading level={4}>Why choose Edify Group for your GED preparation journey?</Heading>
+          <Heading level={4}>Why choose Orbizone Group for your GED preparation journey?</Heading>
           <Heading level={5}>Expert Guidance</Heading>
           <Paragraph variant="paraAbout1">Our team of seasoned education consultants and instructors brings a wealth of knowledge and experience to the table ensuring personalized support tailored to your unique needs.</Paragraph>
           <Heading level={5}>Comprehensive Resources</Heading>
@@ -104,13 +104,13 @@ function Geddetail2() {
       </div>
       <div>
         <Heading level={5}>Holistic Approach</Heading>
-        <Paragraph variant="paraAbout1">At Edify we recognize that success extends beyond mere academic achievement. Our holistic approach nurtures not only intellectual growth but also the development of essential life skills empowering you to thrive in an increasingly competitive world.</Paragraph>
+        <Paragraph variant="paraAbout1">At Orbizone we recognize that success extends beyond mere academic achievement. Our holistic approach nurtures not only intellectual growth but also the development of essential life skills empowering you to thrive in an increasingly competitive world.</Paragraph>
         <Heading level={5}>Tailored Solutions</Heading>
         <Paragraph variant="paraAbout1">No two learners are alike which is why we take a personalized approach to every student's journey. Whether you are aiming to enhance your career prospects or pursue higher education our bespoke solutions are designed to help you reach your goals.</Paragraph>
         <Heading level={5}>Unwavering Support</Heading>
         <Paragraph variant="paraAbout1">From the initial consultation to the moment you receive your GED certificate our dedicated team stands by your side offering guidance encouragement and support every step of the way.</Paragraph>
         <Heading level={5}>So what are you waiting for!</Heading>
-        <Paragraph variant="paraAbout1"> Click APPLY and embark on your GED journey with Edify Group of Companies and unlock a world of possibilities. Together let us transform aspirations into achievements and dreams into reality.</Paragraph>
+        <Paragraph variant="paraAbout1"> Click APPLY and embark on your GED journey with Orbizone Group of Companies and unlock a world of possibilities. Together let us transform aspirations into achievements and dreams into reality.</Paragraph>
       </div>
     </div>
   );

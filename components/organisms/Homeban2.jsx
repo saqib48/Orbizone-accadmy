@@ -10,7 +10,7 @@ function Homeban2() {
           <h3 className="text-white text-[30px] font-semibold" >
             Browse Your Future
           </h3 >
-          <h2 className="text-[#FF9500] text-[50px] font-semibold" >
+          <h2 className="text-[#02C6FE] text-[50px] font-semibold" >
             Popular
           </h2 >
           <h2 className="text-white text-[50px] font-semibold" >
@@ -28,7 +28,7 @@ function Homeban2() {
         </div>
       </div>
       <div data-aos="fade-up"
-        data-aos-anchor-placement="top" className="mx-[4%] bg-[#0C0C0C] border-[1px] border-[lightgray] border-solid rounded-[10px] mt-[-3%]">
+        data-aos-anchor-placement="top" className="mx-[4%] bg-[#0C0C0C] border-[1px] border-[#bebebe] border-solid rounded-[10px] mt-[-3%]">
         <Slidding2 />
       </div>
     </div>

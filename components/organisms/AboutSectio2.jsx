@@ -7,11 +7,11 @@ function AboutSection2() {
   return (
     <div className="flex my-[10%] mx-[5%] ">
 
-      <div className="w-[31%] mx-[7.5%] mb-2 shadow-lg rounded-xl bg-blue-300 bg-opacity-50">
+      <div className="w-[31%] mx-[7.5%] mb-2 shadow-lg rounded-xl bg-[#02C6FE] bg-opacity-50">
         <Image width={100} height={100} className="w-[385px] rounded-t-xl" src="/assits/images/class.webp" alt="class" />
         <div className="p-8 mb-4">
           <Heading level={6}>Empowering Digital Skills</Heading>
-          <Paragraph variant="paraimg">Edify College of IT combines advanced tech and hands-on learning in modern settings, preparing students for the evolving IT world.</Paragraph>
+          <Paragraph variant="paraimg">Orbizone College of IT combines advanced tech and hands-on learning in modern settings, preparing students for the evolving IT world.</Paragraph>
         </div>
       </div>
 

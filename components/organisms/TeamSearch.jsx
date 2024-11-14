@@ -37,7 +37,7 @@ function TeamSearch() {
           <button
             key={category}
             onClick={() => handleFilterChange(category)}
-            className={`w-full my-1 mx-2 bg-none text-base text-white px-8 py-2 rounded-[10px] flex items-center justify-center cursor-pointer  transition duration-300 ease-in ${filter === category ? 'bg-[#0d3882]' : 'bg-[#2347e71f]'} border-[1px] border-solid text-[14px] text-normal border-[#0d3882]`}
+            className={`w-full my-1 mx-2 bg-none text-base text-white px-8 py-2 rounded-[10px] flex items-center justify-center cursor-pointer  transition duration-300 ease-in ${filter === category ? 'bg-[#02C6FE]' : 'bg-[#0C222B]'} border-[1px] border-solid text-[14px] text-normal border-[#02C6FE]`}
           >
             {category}
           </button>

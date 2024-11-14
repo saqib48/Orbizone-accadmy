@@ -20,11 +20,11 @@ function AboutSection1() {
           <Paragraph variant='paraAbout'>In our vision, a vibrant community of learners is inspired to push boundaries, committed to continuous improvement, and driven by a passion for leveraging technology for positive change.</Paragraph>
         </div>
       </div>
-      <div className=" w-[31%] mx-[7.5%]  mb-2 shadow-lg rounded-xl bg-blue-300 bg-opacity-50">
+      <div className=" w-[31%] mx-[7.5%]  mb-2 shadow-lg rounded-xl bg-[#02C6FE] bg-opacity-50">
         <Image width={100} height={100} className='w-[385px] rounded-t-xl' src="/assits/images/class1.webp" alt="class" />
         <div className=" p-8 mb-4">
           <Heading level={6}>Our Learning Environment</Heading>
-          <Paragraph variant='paraimg'>Edify College of IT features a cutting-edge learning environment, blending advanced technology and hands-on educational methods to prepare students for the IT industry.</Paragraph>
+          <Paragraph variant='paraimg'>Orbizone College of IT features a cutting-edge learning environment, blending advanced technology and hands-on educational methods to prepare students for the IT industry.</Paragraph>
         </div>
       </div>
     </div>

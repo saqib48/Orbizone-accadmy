@@ -18,13 +18,13 @@ function HomeBanner() {
           <div className="absolute top-[0] right-[-1%]" ><button className="btn btn-outline-secondary border-none py-[10px] px-[30px] hover:bg-[#6C757D] bg-[#0C0C0C] text-white rounded-r-[36px] rounded-l-[0] ">Search</button></div>
         </div>
       </div>
-      <div className="w-[49%] mr-[-20%]">
+      <div className="w-[49%] mt-[2%] mr-[-25%]">
         <Image
-          src="/assits/images/pngwing.com.png" // ya external URL bhi use kar sakte hain
+          src="/assits/images/imgs.png" // ya external URL bhi use kar sakte hain
           alt="Description of the image"
-          width={500} // desired width in pixels
-          height={100}
-          className='opacity-10 '
+          width={800} // desired width in pixels
+          height={200}
+          className='opacity-100 '
         />
       </div>
     </div>

@@ -11,7 +11,7 @@ const CourseCard1 = ({ image, description, duration, icon2, }) => {
       <div className='content1'>
         <p className='description1' dangerouslySetInnerHTML={{ __html: description }}></p>
         <div className='details1'>
-          <span className='duration1'> <div className='text-[#4ADE80]'>{icon2}</div>{duration} Nov 2023</span>
+          <span className='duration1'> <div className='text-[#02C6FE]'>{icon2}</div>{duration} Nov 2023</span>
         </div>
       </div>
     </div>

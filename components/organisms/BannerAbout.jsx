@@ -7,7 +7,7 @@ function BannerAbout() {
     <div className='justify-center flex my-[8%] mx-4 ' >
       <div className="flex flex-col md:flex-row items-center">
         <div className="flex flex-col w-full lg:w-1/3 justify-center items-center md:items-start p-8">
-          <h1 className='text-6xl md:text-7xl font-bold mb-5 text-gray-200 first-letter:text-blue-500' data-aos="fade-right">About Us</h1>
+          <h1 className='text-6xl md:text-7xl font-bold mb-5 text-gray-200 first-letter:text-[#02C6FE]' data-aos="fade-right">About Us</h1>
         </div>
         <div className="md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
           <div className="flex gap-3  ">
