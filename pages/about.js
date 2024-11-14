@@ -1,8 +1,8 @@
 import AboutSection2 from '@/Components/organisms/AboutSectio2'
 import AboutSection1 from '@/Components/organisms/AboutSection1'
 import AboutText from '@/Components/organisms/AboutText'
-import BannerAbout from '@/Components/organisms/BannerAbout'
-import Footer from '@/Components/organisms/Footer'
+import BannerAbout from '@/components/organisms/BannerAbout'
+import Footer from '@/components/organisms/Footer'
 import Headermain from '@/Components/organisms/Headermain'
 import React from 'react'
 
