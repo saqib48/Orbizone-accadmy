@@ -1,9 +1,9 @@
 'use client';
-import Geddetail from '@/Components/organisms/Geddetail'
-import Gedtext from '@/Components/organisms/Gedtext'
-import Headermain from '@/Components/organisms/Headermain'
+import Geddetail from '@/components/organisms/Geddetail';
+import Gedtext from '@/components/organisms/Gedtext';
+import Headermain from '@/components/organisms/Headermain';
 import React from 'react'
-import Footer from '@/Components/organisms/Footer'
+import Footer from '@/components/organisms/Footer';
 
 
 function ged() {

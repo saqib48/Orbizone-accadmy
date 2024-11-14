@@ -1,9 +1,9 @@
 'use client';
-import Headermain from '@/Components/organisms/Headermain'
-import Footer from '@/Components/organisms/Footer'
+import Headermain from '@/components/organisms/Headermain';
+import Footer from '@/components/organisms/Footer';
 import React from 'react'
-import Contecttext from '@/Components/organisms/Contecttext'
-import ContectBanner from '@/Components/organisms/ContectBanner'
+import Contecttext from '@/components/organisms/Contecttext';
+import ContectBanner from '@/components/organisms/ContectBanner';
 
 function contact() {
   return (

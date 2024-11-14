@@ -1,9 +1,9 @@
 'use client';
-import Headermain from '@/Components/organisms/Headermain'
+import Headermain from '@/components/organisms/Headermain';
 import React from 'react'
-import Footer from '@/Components/organisms/Footer'
-import TeamSearch from '@/Components/organisms/TeamSearch'
-import Teamtext from '@/Components/organisms/Teamtext'
+import Footer from '@/components/organisms/Footer';
+import TeamSearch from '@/components/organisms/TeamSearch';
+import Teamtext from '@/components/organisms/Teamtext';
 
 
 

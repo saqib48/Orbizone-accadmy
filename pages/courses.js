@@ -1,8 +1,8 @@
 'use client';
-import Headermain from '@/Components/organisms/Headermain'
+import Headermain from '@/components/organisms/Headermain';
 import React from 'react'
-import Footer from '@/Components/organisms/Footer'
-import SearchFilter from '@/Components/moleculus/SearchFilter'
+import Footer from '@/components/organisms/Footer';
+import SearchFilter from '@/components/moleculus/SearchFilter';
 
 
 function courses() {

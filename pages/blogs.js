@@ -1,7 +1,7 @@
 'use client';
-import BlogSearch from '@/Components/organisms/BlogSearch'
-import Footer from '@/Components/organisms/Footer'
-import Headermain from '@/Components/organisms/Headermain'
+import BlogSearch from '@/components/organisms/BlogSearch';
+import Footer from '@/components/organisms/Footer';
+import Headermain from '@/components/organisms/Headermain';
 import React from 'react'
 
 function blogs() {
