@@ -1,0 +1,155 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.rotating-circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%; /* To make it circular */
+  animation: rotate360 20s linear infinite; /* 3s is the duration, you can change it */
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Blog Card */
+
+.card1 {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 385px;
+  position: relative;
+  background-color: #292828;
+
+}
+
+.imageContainer1 {
+  position: relative;
+}
+
+.image1 {
+  width: 100%;
+  height: auto;
+}
+
+
+.content1 {
+  padding: 15px 10px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+
+
+.description1 {
+  color: #ffffff;
+  width:250px;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.details1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.duration1 {
+  font-size: 0.9em;
+  color: #ffffff;
+  align-items: center;
+  gap: 3px;
+  display: flex;
+}
+
+
+/* CourseCard */
+
+
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 380px;
+  position: relative;
+  background-color: #292828;
+
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.buttons {
+  position: absolute;
+  top: 80%; 
+  left: 30%;
+  transform: translateX(-20%);
+  display: flex;
+  gap: 2px;
+  border-radius: 5px;
+
+}
+
+.readMore, .joinNow {
+  background-color: #4ADE80;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  display: flex;
+  border-radius: 5px; 
+
+}
+
+.content {
+  padding: 15px;
+}
+
+.title {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.rating {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.description {
+  color: #ffffff;
+
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author, .duration, .students {
+  font-size: 0.9em;
+  color: #ffffff;
+  align-items: center;
+  gap: 3px;
+  display: flex;
+}
