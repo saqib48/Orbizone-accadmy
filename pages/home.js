@@ -1,12 +1,12 @@
 "use client"
-import Slider from '@/Components/moleculus/Slider'
-import Courses from '@/Components/organisms/Courses'
-import Headermain from '@/Components/organisms/Headermain'
-import Homeban2 from '@/Components/organisms/Homeban2'
-import HomeBanner from '@/Components/organisms/HomeBanner'
+import Slider from '@/components/moleculus/Slider'
+import Courses from '@/components/organisms/Courses'
+import Headermain from '@/components/organisms/Headermain'
+import Homeban2 from '@/components/organisms/Homeban2'
+import HomeBanner from '@/components/organisms/HomeBanner'
 import React from 'react'
-import Counter from '../Components/organisms/Counter'
-import Footer from '@/Components/organisms/Footer'
+import Counter from '../components/organisms/Counter'
+import Footer from '@/components/organisms/Footer'
 
 function home() {
   return (
