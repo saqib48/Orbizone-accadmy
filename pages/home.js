@@ -13,7 +13,9 @@ function home() {
     <div className='overflow-hidden bg-[#161719]'>
       <Headermain />
       <HomeBanner />
+      <div className="mt-[20px]">
       <Slider />
+      </div>
       <Homeban2 />
       <Courses />
       {/* <Journey />  */}

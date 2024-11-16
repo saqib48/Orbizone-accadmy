@@ -13,10 +13,10 @@ function BannerAbout() {
           <div className="flex gap-3  ">
             <div className="grid gap-3 mt-[9%] ">
               <div className="overflow-hidden rounded-xl w-full  ">
-                <Image width={100} height={100} className='h-[300px] w-[280px] object-cover ' src="/assits/images/work1.webp" alt="1" />
+                <Image width={300} height={300} className='h-[300px] w-[280px] object-cover ' src="/assits/images/class.webp" alt="1" />
               </div>
               <div className="overflow-hidden rounded-xl w-full flex justify-end  ">
-                <Image width={100} height={100} className='h-[200px] w-[145px] object-cover ' src="/assits/images/work2.webp" alt="2" />
+                <Image width={300} height={300} className='h-[200px] w-[145px] object-cover ' src="/assits/images/class1.webp" alt="2" />
               </div>
             </div>
             <div className="overflow-hidden rounded-xl w-[300px] h-[590px] ">
@@ -26,10 +26,10 @@ function BannerAbout() {
             </div>
             <div className="grid gap-3 mt-[6%] mb-[5%] ">
               <div className="overflow-hidden rounded-xl w-full  ">
-                <Image width={100} height={100} className='h-[240px] w-[340px] object-cover ' src="/assits/images/work3.webp" alt="3" />
+                <Image width={300} height={300} className='h-[240px] w-[340px] object-cover ' src="/assits/images/work3.webp" alt="3" />
               </div>
               <div className="overflow-hidden rounded-xl w-full  ">
-                <Image width={100} height={100} className='h-[240px] w-[145px] object-cover ' src="/assits/images/work 4.webp" alt="4" />
+                <Image width={300} height={300} className='h-[240px] w-[145px] object-cover ' src="/assits/images/work 4.webp" alt="4" />
               </div>
             </div>
           </div>

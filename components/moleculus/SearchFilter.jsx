@@ -5,6 +5,7 @@ import { FaClock } from 'react-icons/fa';
 import { IoPersonSharp } from 'react-icons/io5';
 import React, { useState } from 'react';
 import Heading from '../atoms/Heading';
+import Link from "next/link";
 
 const SearchFilter = () => {
   const [query, setQuery] = useState('');
@@ -12,41 +13,78 @@ const SearchFilter = () => {
   // Array of course data
   const courses = [
     {
+      id: "1",
       image: "/assits/images/course1.jpg",
       title: "20K",
       rating: "★★★★★",
       reviews: 123,
-      description: "Web & Development Course for Beginners",
+      description: "Website Development Course for Beginners",
       author: "John Doe",
       duration: "1.49",
       students: 30,
     },
     {
+      id: "2",
       image: "/assits/images/course2.jpg",
       title: "23K",
       rating: "★★★★★",
       reviews: 123,
-      description: "Amazon Course for Beginners",
+      description: "Wordpress Develoment for Beginners",
       author: "John Doe",
       duration: "1.49",
       students: 30,
     },
     {
+      id: "3",
       image: "/assits/images/course3.jpg",
-      title: "29K",
+      title: "22K",
       rating: "★★★★★",
       reviews: 123,
-      description: "Freelancing Course for Beginners",
+      description: "Search Egnine Optimization (SEO) for Beginners",
       author: "John Doe",
       duration: "1.49",
       students: 30,
     },
     {
+      id: "4",
       image: "/assits/images/course3.jpg",
       title: "29K",
       rating: "★★★★★",
       reviews: 123,
-      description: "Art & Design Course for Beginners",
+      description: "Ecommerce(Shopify) Course for Beginners",
+      author: "John Doe",
+      duration: "1.49",
+      students: 30,
+    },
+    {
+      id: "5",
+      image: "/assits/images/course2.jpg",
+      title: "17K",
+      rating: "★★★★★",
+      reviews: 123,
+      description: "Digital Marketing Course for Beginners",
+      author: "John Doe",
+      duration: "1.49",
+      students: 30,
+    },
+    {
+      id: "6",
+      image: "/assits/images/course1.jpg",
+      title: "20K",
+      rating: "★★★★★",
+      reviews: 123,
+      description: "Social Media Marketing Course for Beginners",
+      author: "John Doe",
+      duration: "1.49",
+      students: 30,
+    },
+    {
+      id: "7",
+      image: "/assits/images/course1.jpg",
+      title: "34K",
+      rating: "★★★★★",
+      reviews: 123,
+      description: "Office Mangement Course for Beginners",
       author: "John Doe",
       duration: "1.49",
       students: 30,
@@ -76,27 +114,29 @@ const SearchFilter = () => {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search for a course..."
-          className="border p-2 w-[340px] mb-4 outline-none border-white/20 rounded-[10px] focus:ring-2 text-white bg-[#000000]"
+          className="border p-2 w-[340px] mb-4 outline-none border-[#02C6FE] rounded-[10px] focus:ring-2 text-white bg-[#161719]"
         />
       </div>
 
       {filteredCourses.length > 0 ? (
-        <ul className="ml-[4%] justify-between items-center flex flex-wrap text-center gap-[50px]">
+        <ul className="ml-[4%] justify-start items-center flex flex-wrap text-center gap-[50px]">
           {filteredCourses.map((course, index) => (
             <div key={index} data-aos="fade-up">
-              <CourseCard
-                image={course.image}
-                title={course.title}
-                rating={course.rating}
-                reviews={course.reviews}
-                description={course.description}
-                author={course.author}
-                duration={course.duration}
-                students={course.students}
-                icon1={<BsJoystick />}
-                icon2={<FaClock />}
-                icon3={<IoPersonSharp />}
-              />
+              <Link href={`/${course.id}`}>
+                <CourseCard
+                  image={course.image}
+                  title={course.title}
+                  rating={course.rating}
+                  reviews={course.reviews}
+                  description={course.description}
+                  author={course.author}
+                  duration={course.duration}
+                  students={course.students}
+                  icon1={<BsJoystick />}
+                  icon2={<FaClock />}
+                  icon3={<IoPersonSharp />}
+                />
+              </Link>
             </div>
           ))}
         </ul>
@@ -104,8 +144,9 @@ const SearchFilter = () => {
         <div className="text-center text-white mt-10">
           <p>No courses found. Please try a different search.</p>
         </div>
-      )}
-    </div>
+      )
+      }
+    </div >
   );
 };
 

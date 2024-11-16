@@ -7,7 +7,7 @@ import HeaderNav from '../moleculus/HeaderNav'
 
 function Headermain() {
   return (
-    <div className='overflow-hidden bg-[#0C0C0C] h-[60px] items-center absolute w-full z-10'>
+    <div data-aos="fade-down" className=' bg-[#0C0C0C] h-[60px] items-center w-full '>
       <Container>
         <div className='flex justify-between text-center items-center pt-[10px]'>
           <Logo src='/assits/images/logo.png' />

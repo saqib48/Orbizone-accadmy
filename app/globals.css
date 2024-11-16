@@ -4,7 +4,14 @@
 @tailwind utilities;
 
 
+/* banner */
 
+.banner {
+  background-image: url(/assits/images/download2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .rotating-circle {
   width: 600px;

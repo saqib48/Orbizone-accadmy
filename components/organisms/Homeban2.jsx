@@ -5,7 +5,7 @@ import Slidding2 from '../moleculus/Slidding2'
 function Homeban2() {
   return (
     <div className='bg-[#161719] overflow-hidden'>
-      <div className='relative flex justify-between items-center h-[500px] overflow-hidden w-[100%]'>
+      <div className='relative flex justify-between items-center h-[400px] overflow-hidden w-[100%]'>
         <div data-aos="fade-right" className="w-[49%] pl-[4%]">
           <h3 className="text-white text-[30px] font-semibold" >
             Browse Your Future

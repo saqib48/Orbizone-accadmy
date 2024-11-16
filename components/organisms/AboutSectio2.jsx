@@ -8,7 +8,7 @@ function AboutSection2() {
     <div className="flex my-[10%] mx-[5%] ">
 
       <div className="w-[31%] mx-[7.5%] mb-2 shadow-lg rounded-xl bg-[#02C6FE] bg-opacity-50">
-        <Image width={100} height={100} className="w-[385px] rounded-t-xl" src="/assits/images/class.webp" alt="class" />
+        <Image width={300} height={300} className="w-[385px] rounded-t-xl" src="/assits/images/class.webp" alt="class" />
         <div className="p-8 mb-4">
           <Heading level={6}>Empowering Digital Skills</Heading>
           <Paragraph variant="paraimg">Orbizone College of IT combines advanced tech and hands-on learning in modern settings, preparing students for the evolving IT world.</Paragraph>
@@ -17,7 +17,7 @@ function AboutSection2() {
 
       <div className="w-[40%] mx-[7.5%]">
         <div className="p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-slate-300">
-          <Image width={100} height={100} src="/assits/images/gif2.gif" alt="gif" />
+          <Image width={300} height={300} src="/assits/images/gif2.gif" alt="gif" />
         </div>
         <div>
           <Heading level={1}>Education Focus</Heading>

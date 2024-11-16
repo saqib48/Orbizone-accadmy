@@ -21,21 +21,51 @@ function HeaderNav() {
               About
             </Link>
           </li>
+          <li className="relative group">
+            <Link
+              href="/service"
+              className={`${router.pathname === "/service"
+                ? "text-[#04C5FE]"
+                : "hover:text-[#6C757D]"
+                } text-[17px]`}
+            >
+              Service
+            </Link>
+            {/* Dropdown Menu */}
+            <ul className="absolute left-0 hidden group-hover:block bg-[#02C6FE] shadow-lg rounded-md py-2 w-[200px]">
+              <li className="px-4 py-2 hover:bg-[#161719]">
+                <Link href="/1" className="text-[white]">
+                  Web Development
+                </Link>
+              </li>
+              <li className="px-4 py-2 hover:bg-[#161719]">
+                <Link href="/2" className="text-[white]">
+                  Mobile Development
+                </Link>
+              </li>
+              <li className="px-4 py-2 hover:bg-[#161719]">
+                <Link href="/3" className="text-[white]">
+                  Digital Marketing
+                </Link>
+              </li>
+            </ul>
+          </li>
+
           <li>
             <Link href="/courses" className={`${router.pathname === "/courses" ? "text-[#04C5FE]" : "hover:text-[#6C757D]"} text-[17px]`}>
               Courses
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/ged" className={`${router.pathname === "/ged" ? "text-[#04C5FE]" : "hover:text-[#6C757D]"} text-[17px]`}>
               GED
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link href="/blogs" className={`${router.pathname === "/blogs" ? "text-[#04C5FE]" : "hover:text-[#6C757D]"} text-[17px]`}>
               Blogs
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/team" className={`${router.pathname === "/team" ? "text-[#04C5FE]" : "hover:text-[#6C757D]"} text-[17px]`}>
               Team

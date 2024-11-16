@@ -10,7 +10,7 @@ function AboutSection1() {
 
       <div className=" w-[40%] mx-[7.5%] ">
         <div className=" p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-slate-300">
-          <Image width={100} height={100} src="/assits/images/gif1.gif" alt="gif" />
+          <Image width={300} height={300} src="/assits/images/gif1.gif" alt="gif" />
         </div>
         <div className="">
           <Heading level={1}>Working with us is a pleasure</Heading>
@@ -21,7 +21,7 @@ function AboutSection1() {
         </div>
       </div>
       <div className=" w-[31%] mx-[7.5%]  mb-2 shadow-lg rounded-xl bg-[#02C6FE] bg-opacity-50">
-        <Image width={100} height={100} className='w-[385px] rounded-t-xl' src="/assits/images/class1.webp" alt="class" />
+        <Image width={300} height={300} className='w-[385px] rounded-t-xl' src="/assits/images/class1.webp" alt="class" />
         <div className=" p-8 mb-4">
           <Heading level={6}>Our Learning Environment</Heading>
           <Paragraph variant='paraimg'>Orbizone College of IT features a cutting-edge learning environment, blending advanced technology and hands-on educational methods to prepare students for the IT industry.</Paragraph>

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../app/globals.css'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const CourseCard = ({ image, title, rating, reviews, description, author, duration, students, icon1, icon2, icon3 }) => {
   return (
@@ -8,8 +9,8 @@ const CourseCard = ({ image, title, rating, reviews, description, author, durati
       <div className='imageContainer'>
         <Image width={300} height={100} src={image} alt={description} className='image' />
         <div className='buttons'>
-          <button className='readMore'>Read More</button>
-          <button className='joinNow'>Join Now</button>
+          <Link href='/courses' className='readMore'>Read More</Link>
+          <Link href='/contact' className='joinNow'>Join Now</Link>
         </div>
       </div>
       <div className='content'>

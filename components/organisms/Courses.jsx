@@ -19,7 +19,7 @@ function Courses() {
             title="20K"
             rating="★★★★★"
             reviews={123}
-            description="Web Design & Development Course for Beginners"
+            description="Website Development Course for Beginners"
             author="John Doe"
             duration="1.49"
             students={30}
@@ -36,7 +36,7 @@ function Courses() {
             title="20K"
             rating="★★★★★"
             reviews={123}
-            description="Web Design & Development Course for Beginners"
+            description="Wordpress Development Course for Beginners"
             author="John Doe"
             duration="1.49"
             students={30}
@@ -52,7 +52,7 @@ function Courses() {
             title="20K"
             rating="★★★★★"
             reviews={123}
-            description="Web Design & Development Course for Beginners"
+            description="SEO Course for Beginners"
             author="John Doe"
             duration="1.49"
             students={30}
