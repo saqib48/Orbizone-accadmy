@@ -6,12 +6,12 @@ import { IoPersonSharp } from 'react-icons/io5';
 
 function Courses() {
   return (
-    <div className="flex flex-col gap-[40px] my-[80px]  " >
+    <div className="flex flex-col gap-[40px] my-[80px]">
       <div className="text-center flex flex-col gap-3 items-center justify-center" data-aos="fade-down">
-        <h2 className="text-4xl font-bold text-[#02C6FE] justify-center items-center flex">Featured Courses</h2>
-        <h2 className="text-3xl font-bold text-[#FFFFFF] justify-center items-center flex">Popular Courses</h2>
+        <h2 className="text-4xl font-bold text-[#02C6FE]">Featured Courses</h2>
+        <h2 className="text-3xl font-bold text-[#FFFFFF]">Popular Courses</h2>
       </div>
-      <div className="mx-[50px] justify-between items-center flex text-center gap-[50px] " >
+      <div className="mx-4 sm:mx-[50px] flex flex-col sm:flex-row justify-center text-center items-center gap-[40px] sm:gap-[50px]">
 
         <div data-aos="fade-right">
           <CourseCard
@@ -27,7 +27,6 @@ function Courses() {
             icon2={<FaClock />}
             icon3={<IoPersonSharp />}
           />
-
         </div>
 
         <div data-aos="fade-up">
@@ -44,8 +43,8 @@ function Courses() {
             icon2={<FaClock />}
             icon3={<IoPersonSharp />}
           />
-
         </div>
+
         <div data-aos="fade-left">
           <CourseCard
             image="/assits/images/web6.jpg"
@@ -60,7 +59,6 @@ function Courses() {
             icon2={<FaClock />}
             icon3={<IoPersonSharp />}
           />
-
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@ const SearchFilter = () => {
       title: "23K",
       rating: "★★★★★",
       reviews: 123,
-      description: "Wordpress Develoment for Beginners",
+      description: "Wordpress Development for Beginners",
       author: "John Doe",
       duration: "1.49",
       students: 30,
@@ -40,7 +40,7 @@ const SearchFilter = () => {
       title: "22K",
       rating: "★★★★★",
       reviews: 123,
-      description: "Search Egnine Optimization (SEO) for Beginners",
+      description: "Search Engine Optimization (SEO) for Beginners",
       author: "John Doe",
       duration: "1.49",
       students: 30,
@@ -51,7 +51,7 @@ const SearchFilter = () => {
       title: "29K",
       rating: "★★★★★",
       reviews: 123,
-      description: "Ecommerce(Shopify) Course for Beginners",
+      description: "Ecommerce (Shopify) Course for Beginners",
       author: "John Doe",
       duration: "1.49",
       students: 30,
@@ -84,7 +84,7 @@ const SearchFilter = () => {
       title: "34K",
       rating: "★★★★★",
       reviews: 123,
-      description: "Office Mangement Course for Beginners",
+      description: "Office Management Course for Beginners",
       author: "John Doe",
       duration: "1.49",
       students: 30,
@@ -97,7 +97,7 @@ const SearchFilter = () => {
   );
 
   return (
-    <div className="flex flex-col pt-[30px] pb-[80px] mr-[4%] ">
+    <div className="flex flex-col pt-[30px] pb-[80px] mx-auto max-w-7xl text-center">
       <div className='text-center max-w-xl mx-auto'>
         <Heading level={3}>Course Catalog</Heading>
         <div className="text-center mb-4">
@@ -108,18 +108,21 @@ const SearchFilter = () => {
           <span className='inline-block w-1 h-1 rounded-full bg-[#02C6FE] ml-1'></span>
         </div>
       </div>
-      <div className="flex justify-end">
+
+      {/* Search Bar */}
+      <div className="flex justify-center sm:justify-end mb-4 ">
         <input
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search for a course..."
-          className="border p-2 w-[340px] mb-4 outline-none border-[#02C6FE] rounded-[5px] focus:ring-1 text-white bg-[#161719]"
+          className="border p-2 w-full sm:w-[340px] mb-4 outline-none border-[#02C6FE] rounded-[5px] focus:ring-1 text-white bg-[#161719]"
         />
       </div>
 
+      {/* Display filtered courses */}
       {filteredCourses.length > 0 ? (
-        <ul className="ml-[4%] justify-start items-center flex flex-wrap text-center gap-[50px]">
+        <ul className="flex flex-wrap justify-center gap-[60px] sm:justify-start">
           {filteredCourses.map((course) => (
             <div key={course.id} data-aos="fade-up">
               <Link href={`/${course.id}`}>
@@ -144,9 +147,8 @@ const SearchFilter = () => {
         <div className="text-center text-white mt-10">
           <p>No courses found. Please try a different search.</p>
         </div>
-      )
-      }
-    </div >
+      )}
+    </div>
   );
 };
 
