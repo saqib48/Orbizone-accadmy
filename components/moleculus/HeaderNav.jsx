@@ -23,7 +23,7 @@ function HeaderNav() {
           </li>
           <li className="relative group">
             <Link
-              href="/service"
+              href="# "
               className={`${router.pathname === "/service"
                 ? "text-[#04C5FE]"
                 : "hover:text-[#6C757D]"
@@ -32,20 +32,20 @@ function HeaderNav() {
               Service
             </Link>
             {/* Dropdown Menu */}
-            <ul className="absolute left-0 hidden group-hover:block bg-[#02C6FE] shadow-lg rounded-md py-2 w-[200px]">
-              <li className="px-4 py-2 hover:bg-[#161719]">
+            <ul className="absolute left-0 hidden group-hover:block bg-[#02C6FE] shadow-lg rounded-md py-2 w-[220px]">
+              <li className="px-4 py-2 hover:bg-[#242424]">
                 <Link href="/1" className="text-[white]">
-                  Web Development
+                  Website Development
                 </Link>
               </li>
-              <li className="px-4 py-2 hover:bg-[#161719]">
+              <li className="px-4 py-2 hover:bg-[#242424]">
                 <Link href="/2" className="text-[white]">
-                  Mobile Development
+                  Wordpress Development
                 </Link>
               </li>
-              <li className="px-4 py-2 hover:bg-[#161719]">
+              <li className="px-4 py-2 hover:bg-[#242424]">
                 <Link href="/3" className="text-[white]">
-                  Digital Marketing
+                  SEO
                 </Link>
               </li>
             </ul>

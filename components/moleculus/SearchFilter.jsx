@@ -1,5 +1,5 @@
 "use client";
-import CourseCard from "../moleculus/CourseCard";
+import CourseCard2 from "../moleculus/CourseCard2";
 import { BsJoystick } from 'react-icons/bs';
 import { FaClock } from 'react-icons/fa';
 import { IoPersonSharp } from 'react-icons/io5';
@@ -120,10 +120,10 @@ const SearchFilter = () => {
 
       {filteredCourses.length > 0 ? (
         <ul className="ml-[4%] justify-start items-center flex flex-wrap text-center gap-[50px]">
-          {filteredCourses.map((course, index) => (
-            <div key={index} data-aos="fade-up">
+          {filteredCourses.map((course) => (
+            <div key={course.id} data-aos="fade-up">
               <Link href={`/${course.id}`}>
-                <CourseCard
+                <CourseCard2
                   image={course.image}
                   title={course.title}
                   rating={course.rating}

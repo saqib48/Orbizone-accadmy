@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <div className='bg-[#0C0C0C]'>
+    <div data-aos="fade-up" className='bg-[#0C0C0C]'>
       <hr />
       <Container>
         <div className='mt-[50px]'>
