@@ -7,7 +7,7 @@ const CourseCard2 = ({ image, title, rating, reviews, description, author, durat
   return (
     <div className='card'>
       <div className='imageContainer'>
-        <Image width={300} height={100} src={image} alt={description} className='image' />
+        <Image width={300} height={300} src={image} alt={description} className='image' />
         <div className='buttons'>
           <div className='readMore'>Read More</div>
           <Link href='/contact' className='joinNow'>Join Now</Link>

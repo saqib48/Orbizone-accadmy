@@ -15,7 +15,7 @@ function Courses() {
 
         <div data-aos="fade-right">
           <CourseCard
-            image="/assits/images/course1.jpg"
+            image="/assits/images/web4.jpg"
             title="20K"
             rating="★★★★★"
             reviews={123}
@@ -32,7 +32,7 @@ function Courses() {
 
         <div data-aos="fade-up">
           <CourseCard
-            image="/assits/images/course2.jpg"
+            image="/assits/images/web5.jpg"
             title="20K"
             rating="★★★★★"
             reviews={123}
@@ -48,7 +48,7 @@ function Courses() {
         </div>
         <div data-aos="fade-left">
           <CourseCard
-            image="/assits/images/course3.jpg"
+            image="/assits/images/web6.jpg"
             title="20K"
             rating="★★★★★"
             reviews={123}

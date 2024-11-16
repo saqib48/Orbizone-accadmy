@@ -14,7 +14,7 @@ const SearchFilter = () => {
   const courses = [
     {
       id: "1",
-      image: "/assits/images/course1.jpg",
+      image: "/assits/images/web4.jpg",
       title: "20K",
       rating: "★★★★★",
       reviews: 123,
@@ -25,7 +25,7 @@ const SearchFilter = () => {
     },
     {
       id: "2",
-      image: "/assits/images/course2.jpg",
+      image: "/assits/images/web5.jpg",
       title: "23K",
       rating: "★★★★★",
       reviews: 123,
@@ -36,7 +36,7 @@ const SearchFilter = () => {
     },
     {
       id: "3",
-      image: "/assits/images/course3.jpg",
+      image: "/assits/images/web6.jpg",
       title: "22K",
       rating: "★★★★★",
       reviews: 123,
@@ -47,7 +47,7 @@ const SearchFilter = () => {
     },
     {
       id: "4",
-      image: "/assits/images/course3.jpg",
+      image: "/assits/images/web7.jpg",
       title: "29K",
       rating: "★★★★★",
       reviews: 123,
@@ -80,7 +80,7 @@ const SearchFilter = () => {
     },
     {
       id: "7",
-      image: "/assits/images/course1.jpg",
+      image: "/assits/images/course3.jpg",
       title: "34K",
       rating: "★★★★★",
       reviews: 123,
@@ -97,7 +97,7 @@ const SearchFilter = () => {
   );
 
   return (
-    <div className="flex flex-col py-[100px] mr-[4%] ">
+    <div className="flex flex-col pt-[30px] pb-[80px] mr-[4%] ">
       <div className='text-center max-w-xl mx-auto'>
         <Heading level={3}>Course Catalog</Heading>
         <div className="text-center mb-4">
@@ -114,7 +114,7 @@ const SearchFilter = () => {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search for a course..."
-          className="border p-2 w-[340px] mb-4 outline-none border-[#02C6FE] rounded-[10px] focus:ring-2 text-white bg-[#161719]"
+          className="border p-2 w-[340px] mb-4 outline-none border-[#02C6FE] rounded-[5px] focus:ring-1 text-white bg-[#161719]"
         />
       </div>
 

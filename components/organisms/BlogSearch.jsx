@@ -37,7 +37,7 @@ const BlogSearch = () => {
   );
 
   return (
-    <div className="flex flex-col py-[100px] mr-[4%] ">
+    <div className="flex flex-col pt-[30px] pb-[80px] mr-[4%] ">
       <div className='text-center max-w-xl mx-auto'>
         <Heading level={3}>Our Blogs</Heading>
         <div className="text-center mb-4">

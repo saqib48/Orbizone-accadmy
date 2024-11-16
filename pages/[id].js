@@ -7,7 +7,7 @@ import { useRouter } from 'next/router';
 const courses = [
   {
     id: 1,
-    image: "/assits/images/course1.jpg",
+    image: "/assits/images/web4.jpg",
     title: "20K",
     rating: "★★★★★",
     reviews: 123,
@@ -18,7 +18,7 @@ const courses = [
   },
   {
     id: 2,
-    image: "/assits/images/course2.jpg",
+    image: "/assits/images/web5.jpg",
     title: "23K",
     rating: "★★★★★",
     reviews: 123,
@@ -29,7 +29,7 @@ const courses = [
   },
   {
     id: 3,
-    image: "/assits/images/course3.jpg",
+    image: "/assits/images/web6.jpg",
     title: "22K",
     rating: "★★★★★",
     reviews: 123,
@@ -40,7 +40,7 @@ const courses = [
   },
   {
     id: 4,
-    image: "/assits/images/course3.jpg",
+    image: "/assits/images/web7.jpg",
     title: "29K",
     rating: "★★★★★",
     reviews: 123,
@@ -73,7 +73,7 @@ const courses = [
   },
   {
     id: 7,
-    image: "/assits/images/course1.jpg",
+    image: "/assits/images/course3.jpg",
     title: "34K",
     rating: "★★★★★",
     reviews: 123,
@@ -94,15 +94,12 @@ const CourseDetails = () => {
   if (!course) return <p className="text-white text-center mt-10">Course not found</p>;
 
   return (
-    <div>
+    <div className="bg-[#161719]">
       <Headermain/>
-    <div className="bg-[#161719] text-white py-[5%] items-center text-center flex flex-col">
+    <div className="bg-[#161719] text-white pt-[30px] pb-[80px] items-center text-center flex flex-col">
     <p className="font-semibold text-[40px]">{course.description}</p>
-            <img src={course.image} alt={course.title} className="mt-2 h-[200px] w-[200px] rounded-full" />
+     <img src={course.image} alt={course.title} className="mt-2 h-[200px] w-[200px] rounded-full object-cover" />
       <h1 className="text-3xl font-bold">{course.title}</h1>
-      <p className="mt-2">Author: {course.author}</p>
-      <p className="mt-2">Duration: {course.duration} hours</p>
-      <p className="mt-2">Students Enrolled: {course.students}</p>
     </div>
     <Footer/>
     </div>

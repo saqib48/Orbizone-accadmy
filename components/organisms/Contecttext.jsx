@@ -5,7 +5,7 @@ import Heading from '../atoms/Heading'
 function Contecttext() {
   return (
     <div className="">
-      <div className='text-center max-w-xl mt-[8%] mx-auto'>
+      <div className='text-center max-w-xl pt-[30px] pb-[80px] mx-auto'>
         <Heading level={3}>Head Office <br />
           Location</Heading>
         <div className="text-center mb-4">

@@ -1,15 +1,16 @@
 import Image from 'next/image';
 import PropTypes from 'prop-types';
+import Link from 'next/link'
 // import Image from '../Image/Image';
 
-const Logo = ({ src, alt, href }) => {
+const Logo = ({ src, alt }) => {
   return (
     <div>
       {LogoData.map((item) => {
         return (
-          <a className='w-[150px] block' key={item.href} href={item.href}>
+          <Link className='w-[150px] block' key={item.href} href='/'>
             <Image width={150} height={100} src={item.src} alt={item.alt} />
-          </a>
+          </Link>
         )
       })}
     </div>
