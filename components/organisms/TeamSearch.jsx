@@ -1,12 +1,11 @@
 "use client";
 
-import React, { useState } from 'react'
-import Profile from '../moleculus/Profile'
+import React, { useState } from 'react';
+import Profile from '../moleculus/Profile';
 
 function TeamSearch() {
-  const [filter, setFilter] = useState('All'); // filter state to manage button clicks
+  const [filter, setFilter] = useState('All');
 
-  // Profiles data in array
   const profiles = [
     { src: '/assits/images/azeem.webp', alt: 'director', Name: 'Azeem Qasim', Role: 'Founder & CEO', category: 'Directors' },
     { src: '/assits/images/Tariqsb.webp', alt: 'director', Name: 'Tariq Amin', Role: 'Managing Director', category: 'Directors' },
@@ -22,41 +21,46 @@ function TeamSearch() {
     { src: '/assits/images/ahmad.jpg', alt: 'design', Name: 'Syed Ahmad Hasnain', Role: 'Sr. Graphic Designer', category: 'Art & Design' },
   ];
 
-  // Function to handle filter change
   const handleFilterChange = (category) => {
     setFilter(category);
   };
 
-  // Filtered profiles based on selected filter
   const filteredProfiles = filter === 'All' ? profiles : profiles.filter(profile => profile.category === filter);
 
   return (
     <div>
-      <div className='flex justify-between mx-[4%]'>
+      {/* Filter Buttons */}
+      <div className='flex flex-wrap justify-center md:justify-between mx-[4%]'>
         {['All', 'Directors', 'Art & Design', 'Developers', 'Digital Marketer', 'Management Officers'].map((category) => (
           <button
             key={category}
             onClick={() => handleFilterChange(category)}
-            className={`w-full my-1 mx-2 bg-none text-base text-white px-8 py-2 rounded-[10px] flex items-center justify-center cursor-pointer  transition duration-300 ease-in ${filter === category ? 'bg-[#02C6FE]' : 'bg-[#0C222B]'} border-[1px] border-solid text-[14px] text-normal border-[#02C6FE]`}
+            className={`w-full sm:w-auto my-2 sm:my-1 mx-2 bg-none text-base text-white px-12 py-4 rounded-[10px] flex items-center justify-center cursor-pointer transition duration-300 ease-in ${filter === category ? 'bg-[#02C6FE]' : 'bg-[#0C222B]'
+              } border-[1px] border-solid text-[14px] text-normal border-[#02C6FE]`}
           >
             {category}
           </button>
         ))}
       </div>
 
-      <div className='flex gap-[27px] items-center mx-[4%] flex-wrap my-[5%] justify-center'>
+      {/* Profile Section */}
+      <div className='flex flex-wrap gap-4 mx-[4%] my-[5%] md:justify-start justify-center'>
         {filteredProfiles.map((profile, index) => (
-          <Profile
+          <div
             key={index}
-            src={profile.src}
-            alt={profile.alt}
-            Name={profile.Name}
-            Role={profile.Role}
-          />
+            className='w-full sm:w-auto flex flex-col items-center sm:items-start' // Mobile row mein dikhayega
+          >
+            <Profile
+              src={profile.src}
+              alt={profile.alt}
+              Name={profile.Name}
+              Role={profile.Role}
+            />
+          </div>
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 export default TeamSearch;

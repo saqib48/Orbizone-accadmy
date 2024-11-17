@@ -5,7 +5,7 @@ import Heading from '../atoms/Heading'
 function Teamtext() {
   return (
     <div className="">
-      <div className='text-center max-w-xl pt-[30px] pb-[80px] mx-auto'>
+      <div className='text-center max-w-xl pt-[30px] pb-[40px] mx-auto'>
         <Heading level={3}>Our Team</Heading>
         <div className="text-center mb-4">
           <span className='inline-block w-1 h-1 rounded-full bg-[#02C6FE] ml-1'></span>
