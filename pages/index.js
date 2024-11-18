@@ -9,8 +9,8 @@ import "../app/globals.css"
 function Index() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration in milliseconds
-      once: true, // Animation will happen only once
+      duration: 1000, 
+      once: true, 
     });
   }, []);
 

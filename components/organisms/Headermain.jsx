@@ -6,22 +6,19 @@ import Logo from '../atoms/Logo';
 import '../../app/globals.css';
 
 const Headermain = () => {
-  const [isOpen, setIsOpen] = useState(false); // Controls the mobile menu
-  const [isServiceOpen, setIsServiceOpen] = useState(false); // Controls the service dropdown on mobile
+  const [isOpen, setIsOpen] = useState(false);
+  const [isServiceOpen, setIsServiceOpen] = useState(false);
 
-  const handleMenuToggle = () => setIsOpen(!isOpen); // Toggle for mobile menu
+  const handleMenuToggle = () => setIsOpen(!isOpen);
 
   return (
     <div
       className={`bg-[#0C0C0C] h-[60px] flex items-center w-full z-50 ${isOpen ? 'fixed top-0 left-0' : 'relative'}`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        {/* Logo */}
         <div>
           <Logo src="/assits/images/logo.png" className="h-8" />
         </div>
-
-        {/* Desktop Navigation */}
         <div className="hidden lg:block">
           <ul className="flex gap-8 text-white list-none">
             <li>
@@ -55,29 +52,23 @@ const Headermain = () => {
             </li>
           </ul>
         </div>
-
-        {/* Apply Now Button */}
         <button className="hidden lg:block border-[1px] border-[lightgray] py-[6px] px-[20px] rounded-[7px] text-[white]">
           Apply Now
         </button>
-
-        {/* Hamburger Menu Button */}
         <div className="lg:hidden flex items-center">
           <button onClick={handleMenuToggle} className="text-white focus:outline-none">
             {isOpen ? '✖' : '☰'}
           </button>
         </div>
       </div>
-
-      {/* Mobile Navigation */}
       {isOpen && (
         <div
           className={`fixed inset-0 z-40 bg-black bg-opacity-50`}
-          onClick={handleMenuToggle} // Closes menu when clicking outside
+          onClick={handleMenuToggle}
         >
           <div
             className="w-1/2 bg-[#161719] p-6 text-white transform transition-transform duration-300 ease-in-out"
-            onClick={(e) => e.stopPropagation()} // Prevents closing when clicking inside menu
+            onClick={(e) => e.stopPropagation()}
           >
             <ul className="list-none flex flex-col gap-6 text-white">
               <li>

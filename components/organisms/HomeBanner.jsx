@@ -8,12 +8,10 @@ import Link from "next/link";
 function HomeBanner() {
   return (
     <div className="banner flex flex-wrap items-center h-auto lg:h-[480px] px-4 lg:px-0">
-      {/* Left Content */}
       <div
         data-aos="fade-right"
         className="flex flex-col w-full lg:w-[49%] lg:pl-[4%] justify-center gap-[20px] lg:gap-[45px]"
       >
-        {/* Heading & Paragraph */}
         <div className="flex flex-col gap-[10px] lg:gap-[15px] text-center lg:text-left">
           <h2 className="text-[#04C5FE] text-[40px] lg:text-[60px] font-[700]">
             Master Your Skills
@@ -23,8 +21,6 @@ function HomeBanner() {
             enrolling in our distinguished IT programs.
           </p>
         </div>
-
-        {/* Buttons */}
         <div className="flex justify-center lg:justify-start gap-2">
           <Link
             href="/ged"

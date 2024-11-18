@@ -1,10 +1,6 @@
 'use client';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
-
-// Import required modules
 import { Pagination, Autoplay } from 'swiper/modules';
 import SlideImg2 from './SlideImg2';
 
@@ -12,7 +8,7 @@ export default function Slidding() {
   return (
     <>
       <Swiper
-        slidesPerView={4} // Default value for smaller screens
+        slidesPerView={4}
         spaceBetween={15}
         centeredSlides={true}
         loop={true}
@@ -28,15 +24,15 @@ export default function Slidding() {
         className="w-full"
         breakpoints={{
           320: {
-            slidesPerView: 1, // Mobile screens
+            slidesPerView: 1,
             spaceBetween: 10,
           },
           640: {
-            slidesPerView: 2, // Tablets and small screens
+            slidesPerView: 2,
             spaceBetween: 15,
           },
           1024: {
-            slidesPerView: 5, // For larger screens (laptops and desktops)
+            slidesPerView: 5,
             spaceBetween: 25,
           },
         }}

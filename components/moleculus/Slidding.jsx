@@ -1,17 +1,13 @@
 'use client';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
-
-// Import required modules
 import { Autoplay } from 'swiper/modules';
 import SlideImg from './SlideImg';
 
 export default function Slidding() {
   return (
     <Swiper
-      slidesPerView={4} // Default value for larger screens
+      slidesPerView={4}
       spaceBetween={20}
       loop={true}
       speed={3000}

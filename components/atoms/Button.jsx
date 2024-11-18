@@ -103,11 +103,11 @@ const Button = ({ href, children, variant, type, onClick }) => {
       buttonStyle =
         "bg-buttonGray h-[41px]  cursor-pointer text-center xl:w-[235px] lg:w-[235px] md:w-[235px] sm:w-[full] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
       break;
-    case "MyAccount"://this button style you can use in myaccount all button in side div :)
+    case "MyAccount":
       buttonStyle =
         "w-full bg-[#242424] py-[5px] px-[10px] flex items-start text-white cursor-pointer rounded-[3px] hover:bg-[#ff6a28] transition 0.3s ease-in";
       break;
-    case "404"://text lekhtay jaen center khod he ho jay ga
+    case "404":
       buttonStyle =
         "px-[20px] py-[10px] bg-[#ff6a28] text-white font-[600] hover:bg-[#242424] transition 0.3s ease-in";
       break;

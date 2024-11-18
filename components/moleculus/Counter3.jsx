@@ -30,7 +30,7 @@ const Counter3 = ({ startCount, targetCount, icon, contant }) => {
         {icon}
       </div>
       <div className="">
-        <p className='font-normal text-[white] text-[30px] pt-[5px]'>{count}</p> {/* Display the count */}
+        <p className='font-normal text-[white] text-[30px] pt-[5px]'>{count}</p>
         <h2 className='font-normal text-[white] text-[12px] '>{contant}</h2>
       </div>
     </div>

@@ -5,7 +5,6 @@ function SlideImg({ src, p, p2 }) {
   return (
     <div className="text-center gap-8 flex flex-col items-center justify-center">
       <div className="relative w-full h-auto max-w-[130px]">
-        {/* Wrap image in a container to control size */}
         <Image
           src={src}
           alt="Description of the image"

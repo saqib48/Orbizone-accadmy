@@ -84,7 +84,6 @@ const courses = [
     duration: "1.49",
     students: 30,
   },
-  // Add all other courses...
 ];
 
 const CourseDetails = () => {

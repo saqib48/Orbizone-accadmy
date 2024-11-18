@@ -5,14 +5,11 @@ function Contectleft() {
   return (
     <div>
       <div className="w-full flex flex-col text-center mt-3 items-center justify-center h-[60vh]">
-        {/* Title Section */}
         <div className="text-center text-white sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-10 before:rounded-[10px] sm:before:mx-0 before:bg-[#02C6FE]">
           <div className="flex gap-4 items-center">
             <div className="h-6 w-6 bg-[#02C6FE] rounded-full"></div>
             <h3 className="text-3xl font-semibold">Follow Us on</h3>
           </div>
-
-          {/* Social Media Links */}
           <div className="mt-9 flex gap-4">
             <a
               href="https://www.facebook.com/"

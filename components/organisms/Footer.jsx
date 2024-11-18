@@ -11,8 +11,6 @@ function Footer() {
       <Container>
         <div className='mt-[50px]'>
           <div className='flex flex-col sm:flex-row justify-between gap-[20px] sm:gap-[10%] pt-[5%]'>
-            
-            {/* Information Section */}
             <div className='flex-1'>
               <h3 className='text-white text-[26px] font-semibold'>Information</h3>
               <div className='grid gap-[10px] mt-[20px] text-white'>
@@ -24,8 +22,6 @@ function Footer() {
                 <Link href="/contact" className='hover:text-[#6C757D]'>Contact</Link>
               </div>
             </div>
-
-            {/* Contact Us Section */}
             <div className='flex-1'>
               <h3 className='text-white text-[26px] font-semibold'>Contact Us</h3>
               <div className='text-white grid gap-[20px] mt-[20px]'>
@@ -35,8 +31,6 @@ function Footer() {
                 <p>Mon/Fri - 9:00/7:00</p>
               </div>
             </div>
-
-            {/* Newsletter Section */}
             <div className='flex-1'>
               <h3 className='text-white text-[26px] font-semibold'>Join Our Newsletter Now</h3>
               <div className='text-white grid gap-[10px] mt-[20px]'>

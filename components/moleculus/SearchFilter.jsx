@@ -10,7 +10,6 @@ import Link from "next/link";
 const SearchFilter = () => {
   const [query, setQuery] = useState('');
 
-  // Array of course data
   const courses = [
     {
       id: "1",

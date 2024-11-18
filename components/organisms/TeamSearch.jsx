@@ -29,7 +29,6 @@ function TeamSearch() {
 
   return (
     <div>
-      {/* Filter Buttons */}
       <div className='flex flex-wrap justify-center md:justify-between mx-[4%]'>
         {['All', 'Directors', 'Art & Design', 'Developers', 'Digital Marketer', 'Management Officers'].map((category) => (
           <button
@@ -42,8 +41,6 @@ function TeamSearch() {
           </button>
         ))}
       </div>
-
-      {/* Profile Section */}
       <div className='flex flex-wrap gap-4 mx-[4%] my-[5%] md:justify-start justify-center'>
         {filteredProfiles.map((profile, index) => (
           <div

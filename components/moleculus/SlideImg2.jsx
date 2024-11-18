@@ -5,9 +5,9 @@ function SlideImg2({ src, p, p2 }) {
   return (
     <div className="text-center gap-4 flex flex-col items-center justify-center h-[200px]">
       <Image
-        src={src} // ya external URL bhi use kar sakte hain
+        src={src}
         alt="Description of the image"
-        width={90} // desired width in pixels
+        width={90}
         height={100}
         className=' '
       />

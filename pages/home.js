@@ -18,7 +18,6 @@ function home() {
       </div>
       <Homeban2 />
       <Courses />
-      {/* <Journey />  */}
       <Counter />
       <Footer/>
 

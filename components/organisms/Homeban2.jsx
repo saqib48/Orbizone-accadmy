@@ -21,7 +21,7 @@ function Homeban2() {
           <Image
             src="/assits/images/circle.svg"
             alt="Description of the image"
-            width={400} // desired width in pixels
+            width={400}
             height={300}
             className="rotating-circle object-contain"
           />
